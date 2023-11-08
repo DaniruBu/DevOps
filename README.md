@@ -1,6 +1,6 @@
 # DevOps
-- [CI/CD](#CI/CD)
-- [S.O.L.I.D.](#S.O.L.I.D.)
+- [CI/CD](#cicd)
+- [S.O.L.I.D.](#solid)
 
 ### CI/CD
   ![image](https://github.com/DaniruBu/DevOps/assets/116013469/ec21ad99-5ef4-4794-8d2b-1dd998eb7dd6)
