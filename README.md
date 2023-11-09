@@ -31,3 +31,8 @@
 
 ## Базы Данных
 - [Памятка/шпаргалка по SQL](https://habr.com/ru/articles/564390/)
+
+## Тесты
+- [Обзорная статья о видах тестирования IT-продуктов](https://habr.com/ru/companies/otus/articles/720664/)
+- [Тестирование проектов Django](https://habr.com/ru/articles/122156/)
+- [Хватит терять клиентов! Или как разработчику тестировать сайт... Часть 1, 2, 3](https://habr.com/ru/companies/pvs-studio/articles/648717/)
