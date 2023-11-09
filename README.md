@@ -1,61 +1,33 @@
-# DevOps
-- [CI/CD](#cicd)
-- [S.O.L.I.D.](#solid)
+# DevOps-BackEnd
 
-### CI/CD
-  ![image](https://github.com/DaniruBu/DevOps/assets/116013469/ec21ad99-5ef4-4794-8d2b-1dd998eb7dd6)
-  **Непрерывная интеграция (CI) и тестирование:**\
-     Главная задача непрерывной интеграции (CI) — быстрое обнаружение и исправление ошибок, улучшение качества ПО и сокращение времени, затрачиваемого на проверку и релизы новых обновлений.\
-    [git -> pull -> PR -> test]
+## Принципы
+  - [Принципы SOLID, о которых должен знать каждый разработчик](https://habr.com/ru/companies/ruvds/articles/426413/)
+  - [Что такое CI/CD? Разбираемся с непрерывной интеграцией и непрерывной поставкой](https://habr.com/ru/companies/otus/articles/515078/)
+  - [Полное практическое руководство по Docker: с нуля до кластера на AWS](https://habr.com/ru/articles/310460/)
+  - [Паттерны для новичков: MVC vs MVP vs MVVM](https://habr.com/ru/articles/215605/)
+    - [MVC, MVVM Архитектура | YouTube](https://www.youtube.com/watch?v=X85soC5evw0)
+  - [Что такое Rest API (http)? Soap? GraphQL? Websockets? RPC (gRPC, tRPC). Клиент - сервер. Вся теория | YouTube](https://www.youtube.com/watch?v=XaTwnKLQi4A)
+  - [Использование HTTP заголовков | YouTube](https://www.youtube.com/playlist?list=PLrmZ-W4yj5ERy756feVGzyyiAYeBIUNtF)
 
-    Test:
-    1. сделать сборку приложения
-    2. прогнать тесты
-    3. прогнать линтеры*
-    4. прогнать типы
-  
-  **Непрерывная доставка (CD):**\
-     Непрерывной доставкой называются автоматизированные процессы доставки программного обеспечения в разные среды короткими контролируемыми циклами. Как только, изменение в коде фиксируется в центральном репозитории, оно собирается сервером сборки и затем тестируется. После прохождения тестов изменение кода отмечается как готовое к релизу. Такой подход гарантирует, что никакой новый релиз не станет причиной сбоя в работе приложения. Конечная цель непрерывной доставки — наличие кодовой базы, готовой к развертыванию в среде продакшн.
 
-  **Deploy** – размещение готового ПО на платформе, доступной для пользоватяля.
-  - Отправка кода нне а сервер.
-  - Установка зависимостей.
-  - Сборка.
-  - Запуск.
+## Сети
+  - [25 вопросов и ответов по терминам REST API на собеседовании](https://habr.com/ru/companies/ssp-soft/articles/772088/)
+  - [REST vs SOAP](https://habr.com/ru/articles/131343/)
+  - [Проектирование REST API](https://habr.com/ru/articles/770226/)
 
-  _Доп. материалы_:
-  * [YouTube](https://www.youtube.com/watch?v=ANj7qUgzNq4)
-  * [Dzen](https://dzen.ru/a/YV_vAOzQHV9HA9Mo)
+## BackEnd
+ - [Что должен знать JUNIOR BACKEND разработчик? | YouTube](https://www.youtube.com/watch?v=VR9EPKz8aXk&t)
+ - [Вопросы для собеседования бэкенд-разработчика](https://habr.com/ru/articles/349434/)
+ - [Материал для Backend разрабодчика](https://github.com/Swfuse/devops-interview/blob/main/interview.md)
+ - [Oh My BackEnd](https://github.com/bzick/oh-my-backend#oh-my-backend)
+ - [ООП | YouTube ](https://www.youtube.com/watch?v=-6DWwR_R4Xk)
 
-### S.O.L.I.D.
+## FrontEnd
+- [Архитектура современных WEB приложений. Эволюция от А до Я | YouTube](https://www.youtube.com/watch?v=S0e_5a2WB60)
 
-  _**S**_: **Single Responsibility**\
-     Принцип единственной ответственности:\
-      1 сущность = 1 задача.
+## Algorithm
+ - [Алгоритмы сортировки на Python](https://github.com/ViktorSalimonov/sorting-algorithms)
+ - [Алгоритмы С/С++](https://e-maxx.ru/algo/)
 
- _**O**_: **Open-Closed**\
-     Принцип открытости-закрытости:\
-      Програмные сущности открыты для расширения, но закрыты для модификаций.
-
-  _**L**_: **Loskov Substitution**\
-     Принцип Барборы Лесков:\
-     Необхожимо чтобы поклассы могли бы служить заменой для сових суперклассов.
-
-  _**I**_: **Interface Segregation**\
-    Принцип разделения интерфейса:\
-     Создоватйте узкоспециализированные интерфейсы, предназначенные для конкретного пользователя. Клиенты не должны зависеть от интерфейса, который они не используют.
-
-  _**D**_: **Dependency Inversion**\
-     Принцип инверсии зависимости:\
-     Модули высокого уровня не должны завистить от модуля низкого уровня.
-
-  _Доп. материалы:_
-  * [Habr](https://habr.com/ru/companies/otus/articles/651753/)
-  * [GitHub](https://gist.github.com/novikov-nsa/0a1797717a531393ecf84d3d926846f2)
-  * [YouTube](https://www.youtube.com/watch?v=TxZwqVTaCmA)
-
-\***Линтер** – инструмент программирования исп. для анализа кода, с целью выявления проблем, стилевых нарушений и др.
-  * табы и пробелы
-  * точки с зяпятой и скобки
-  * пустые строки
-  * классы и зависимости
+## Базы Данных
+- [Памятка/шпаргалка по SQL](https://habr.com/ru/articles/564390/)
